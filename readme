@@ -1,0 +1,82 @@
+Sistema de Caixa de Supermercado (C)
+
+Este projeto é um sistema de caixa para supermercado, desenvolvido em linguagem C, com funcionalidades completas de gerenciamento de produtos e carrinho de compras.
+
+O usuário pode adicionar, remover, atualizar quantidades, listar itens, cadastrar novos produtos e finalizar a compra gerando uma nota fiscal.
+
+📌 Funcionalidades
+🧾 1. Catálogo de Produtos
+
+O sistema já inicia com uma base de dados de produtos (6 itens).
+
+Cada produto possui:
+
+Código de barras
+
+Nome
+
+Preço
+
+🛍️ 2. Adicionar produto ao carrinho
+
+Mostra o catálogo antes de adicionar.
+
+Permite escolher pelo código.
+
+Se o item já existir no carrinho, só aumenta a quantidade.
+
+🗑️ 3. Remover produto do carrinho
+
+Remove pelo código.
+
+Mostra o carrinho antes de remover.
+
+✏️ 4. Corrigir quantidade
+
+Mostra o carrinho antes.
+
+Permite atualizar a quantidade.
+
+Quantidade 0 remove o item automaticamente.
+
+🗂️ 5. Cadastrar novo produto
+
+Mostra a base antes de cadastrar.
+
+Valida:
+
+Somente números no código
+
+Código não pode existir
+
+Permite adicionar novos produtos ao catálogo.
+
+📋 6. Listar itens do carrinho
+
+Exibe:
+
+Nome
+
+Código
+
+Preço
+
+Quantidade
+
+Subtotal
+
+Mostra o total geral do carrinho.
+
+🧾 7. Finalizar compra
+
+Solicita CPF (opcional).
+
+Gera uma nota fiscal com:
+
+Lista dos produtos
+
+Quantidades
+
+Subtotal de cada item
+
+Total final
