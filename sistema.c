@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include <unistd.h>  // sleep()
+#include <unistd.h>
 
 #define MAX_PRODUTOS 100
 #define MAX_CARRINHO 100
@@ -24,7 +24,7 @@ int qtdProdutos = 6;
 ItemCarrinho carrinho[MAX_CARRINHO];
 int qtdCarrinho = 0;
 
-char CPF[20]; // CPF GLOBAL PARA TODA A COMPRA
+char CPF[20];
 
 int validarCodigo(const char *codigo) {
     for (int i = 0; codigo[i] != '\0'; i++)
